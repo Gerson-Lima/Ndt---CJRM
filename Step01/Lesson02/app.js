@@ -32,83 +32,83 @@ const mdn = mozilla[0] + mozilla[8] + mozilla[18]
 //MOSTRAR ÚLTIMA LETRA INDEPENDENTE DA PALAVRA
 let randomWord = 'Araponga'
 
-// console.log(randomWord[randomWord.length - 1])
+console.log(randomWord[randomWord.length - 1])
 
 
 //STRING LOWERCASE
 const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
 
-// console.log(summerMessage.toLowerCase())
+console.log(summerMessage.toLowerCase())
 
 
 //STRING UPPERCASE
 const winterMessage = 'o inverno está chegando'
 
-// console.log(winterMessage.toUpperCase())
+console.log(winterMessage.toUpperCase())
 
 
 //EXIBIR PRIMEIRO INDEX DE UM CARACTERE ESPECÍFICO
-// console.log(winterMessage.indexOf('v'))
+console.log(winterMessage.indexOf('v'))
 
 
 //EXIBIR ÚLTIMO INDEX DE UM CARACTERE ESPECÍFICO
-// console.log(winterMessage.lastIndexOf('n'))
+console.log(winterMessage.lastIndexOf('n'))
 
 
 //INDEX ESPECÍFICO DENTRO DE UMA STRING
 const harryPotterAuthor = 'J.K. Rowling'
 
-// console.log(harryPotterAuthor.slice(0, 4))
+console.log(harryPotterAuthor.slice(0, 4))
 
 
 //SUBSTITUIR STRING ESPECÍFICA
 const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
 const realBestMovie = bestMovie.replace('La la land', 'Moonlight')
 
-// console.log(realBestMovie)
+console.log(realBestMovie)
 
 
 //ARMAZENAR RESTO DE DIVISÃO
 const reminder = 10 % 3
-// console.log(reminder)
+console.log(reminder)
 
 
 //INCREMENTAR VALOR DE UMA VARIÁVEL
 let episodes = 6
 episodes++
 
-// console.log(episodes)
+console.log(episodes)
 
 
 //DECREMENTAR VALOR DE UMA VARIÁVEL
 episodes--
 
-// console.log(episodes)
+console.log(episodes)
 
 
 //ATUALIZAR VALOR DE UMA VARIÁVEL
 episodes += 4
 
-// console.log(episodes)
+console.log(episodes)
 
 
 //CONCATENAR STRING COM NÚMERO
 const allEpisodes = 'O nº de episódios é: ' + episodes
 
-// console.log(allEpisodes)
+console.log(allEpisodes)
 
 
 //ESCAPAR CRACTER COM CONTRABARRAS
 const bookMessage = '\'O conto de Aia\' é um dos livros mais vendidos da década'
 
-// console.log(bookMessage)
+console.log(bookMessage)
 
 
 //CARACTERES INICIAIS MAIÚSCULOS 
 const name = 'walter white'
 let newName  = name[0].toUpperCase() + name.slice(1, 6) + ' ' + name[7].toUpperCase() + name.slice(8)
 
-// console.log(newName)
+console.log(newName)
 
 
 //USANDO DO TEMPLATE STRING
