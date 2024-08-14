@@ -1,18 +1,18 @@
 //EXIBIR NÚMEROS USANDO WHILE LOOP
 let i = 0
 while (i <= 5) {
-    // console.log(i)
+    console.log(i)
     i++
 }
 
 //EXIBIR NÚMEROS USANDO FOR LOOP
 for (let i = 0; i <= 5; i++) {
-    // console.log(i)
+    console.log(i)
 }
 
 //REPETIR FRASE COM MUDANÇA NO NÚMERO DE VEZES
 for (let i = 1; i <= 10; i++) {
-    // console.log(`Esta é a ${i}ª vez que esta frase é exibida no console.`)
+    console.log(`Esta é a ${i}ª vez que esta frase é exibida no console.`)
 }
 
 //LOOP COM CIDADES EM ARRAYS
@@ -23,7 +23,7 @@ let upperCaseCities = []
 for (let i = 0; i < cities.length; i++) {
     upperCaseCities.push(cities[i].toUpperCase())
 }
-// console.log(upperCaseCities)
+console.log(upperCaseCities)
 
 
 //EXIBIR NOMES EM ARRAY COM TEMPLATE HTML E FOR LOOP
@@ -34,7 +34,7 @@ let HTMLTemplate = ''
 for (i = 0; i < names.length; i++) {
     HTMLTemplate += `<li>${names[i]}</li>`
 }
-// console.log(HTMLTemplate)
+console.log(HTMLTemplate)
 
 
 //EXIBIR SE A SOMA DE STRINGS DO ARRAY É TRUE OU FALSE (TRASNFORMANDO EM NUMBER)
@@ -45,7 +45,7 @@ let sum = 0
 for (let i = 0; i < numbers.length; i++) {
     sum += Number(numbers[i])
 }
-// console.log(sum === 337)
+console.log(sum === 337)
 
 
 //SOMA DE MATRIZ USANDO FOR LOOP
