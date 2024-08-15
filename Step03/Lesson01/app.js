@@ -74,7 +74,7 @@ const oddNumbers = getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3,
 console.log(oddNumbers)
 
 
-// 
+//CONCATENAÇÃO DE STRINGS EM ARRAY DE FUNÇÕES USANDO FOR LOOP
 const functions = [
     function () { return 'Plymouth' },
     function () { return 'é' },
