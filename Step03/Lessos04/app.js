@@ -1,43 +1,43 @@
-//CONVERTER FUNCTION PARA ARROW FUNCTION
-// function convertToString (value) {
-//     return String(value)
-// }
+//CONVERTER FUNCTION PARA ARROW FUNCTION.
+function convertToString (value) {
+    return String(value)
+}
 
 const convertToString = value => String(value)
 console.log(typeof convertToString(true))
 
 
-//EXIBIR QTD DE CARACTERES DE UMA STRING
+//EXIBIR QTD DE CARACTERES DE UMA STRING.
 const getStringLength = string => string.length
 
 console.log(getStringLength('hello'))
 
 
-//EXIBIR FRASE COM LETRAS MINÚSCULAS NO CONSOLE
+//EXIBIR FRASE COM LETRAS MINÚSCULAS NO CONSOLE.
 const convertToLowerCase = string => string.toLowerCase()
 
 console.log(convertToLowerCase('CHOCOLATE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO'))
 
 
-//ENCONTRAR  CARACTERE DENTRO DE UMA STRING  
+//ENCONTRAR  CARACTERE DENTRO DE UMA STRING.
 const getIndex = (character, string) => string.indexOf(character)
 
 console.log(getIndex('5', '12345'))
 
 
-//VERIFICAR SE EXISTE UM ITEM DENTRO DE UM ARRAY 
+//VERIFICAR SE EXISTE UM ITEM DENTRO DE UM ARRAY.
 const isItemIncluded = (item, array) => array.includes(item)
 
 console.log(isItemIncluded(3, [7, 3, 1]))
 
 
-//EXIBIR UMA CONCATENAÇÃO DE ARRAYS
+//EXIBIR UMA CONCATENAÇÃO DE ARRAYS.
 const ConcatArrays = (array1, array2) => array1.concat(array2)
 
 console.log(ConcatArrays([1, 2, 3], [3, 2, 1]))
 
 
-//EXIBIR ARRAY COM SEU ÚLTIMO ITEM REMOVIDO
+//EXIBIR ARRAY COM SEU ÚLTIMO ITEM REMOVIDO.
 const removeLastItem = array => {
     array.pop()
     return array
@@ -45,12 +45,12 @@ const removeLastItem = array => {
 removeLastItem([1, 2, 3])
 
 
-//EXIBIR SE VALOR É NULL
+//EXIBIR SE VALOR É NULL.
 const isNull = value => value === null
 console.log(isNull(null))
 
 
-//INVOCAR CALLBACK
+//INVOCAR CALLBACK.
 const invokeCallback = callback => {
     callback()
 }
@@ -61,7 +61,7 @@ const logName = () => {
 invokeCallback(logName)
 
 
-//INVOCA CALLBACK PARA MOSTRAR UM TRIPLO DE UM NÚMERO
+//INVOCA CALLBACK PARA MOSTRAR UM TRIPLO DE UM NÚMERO.
 const callCallback = (value, callback) => {
     return callback(value)
 }
@@ -71,7 +71,7 @@ const triple = number => number * 3
 console.log(callCallback(33, triple))
 
 
-//EXIBIR ITENS DE UM ARRAY USANDO FOREACH
+//EXIBIR ITENS DE UM ARRAY USANDO FOREACH.
 const numbers = [1, 2, 3]
 const showNumberInfo = (item, index, array) => {
     console.log(`O ${item}º item do array [${array.join(', ')}] é o ${index + 1}`)
@@ -79,7 +79,7 @@ const showNumberInfo = (item, index, array) => {
 numbers.forEach(showNumberInfo)
 
 
-//CONVERTER FOR LOOP EM FOREACH
+//CONVERTER FOR LOOP EM FOREACH.
 const letters = ['v', 'e', 'p']
 let letterCopy = []
 
@@ -93,7 +93,7 @@ letters.forEach(letter => {
 console.log(letterCopy)
 
 
-// EXIBIR PARAGRAFOS NO HTML A PARTIR DE LOOP E INTERPOLAÇÃO
+// EXIBIR PARAGRAFOS NO HTML A PARTIR DE LOOP E INTERPOLAÇÃO.
 const section = document.querySelector('[data-js="section"]')
 
 const review = [
@@ -115,7 +115,7 @@ const getLikesMessage = (names = []) => {
 const firstName = names[0]
 const secondName = names[1]
 const thirdName = names[2]
-const totalNamesMinusTwo = names.length - 2
+const totalNamesMinusTwo = (names.length - 2)
 
     switch (names.length) {
         case 0:
